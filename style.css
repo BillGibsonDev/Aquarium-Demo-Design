@@ -99,7 +99,9 @@ header .header-links a:hover {
     font-size: 48px;
 }
 #home .text-container h3 span {
-    color: var(--accentColor);
+    background: radial-gradient( rgb(255, 255, 255) , #3acfe6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 #home .text-container p {
     margin-top: 20px;
@@ -236,7 +238,7 @@ footer .footer-links a {
 }
 footer .copyright-container {
     align-items: center;
-    margin: 16px auto 0 auto;
+    margin: 16px auto 8px auto;
 }
 footer .copyright-container img {
     width: 24px;
