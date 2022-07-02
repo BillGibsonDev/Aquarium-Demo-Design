@@ -309,6 +309,7 @@ footer .copyright-container h5 {
     #gallery p {
         margin: 8px;
     }
+    footer { height: 25vh;}
     footer, footer .footer-wrapper, footer .icon-wrapper {
         flex-direction: column;
         width: 100%;
