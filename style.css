@@ -264,14 +264,13 @@ footer .copyright-container h5 {
     #home, header, .about-wrapper {
         flex-direction: column;
     }
-
     header .logo-container h5 {
         font-size: 24px;
     }
     header .header-links {
         width: 100%;
+        margin-top: 16px;
     }
-
     #about, #gallery, #faqs {
         height: 100%;
         margin: 50px 0;
